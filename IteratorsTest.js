@@ -3,6 +3,7 @@
         yield array[i]
     }
  }
+ 
 
  const genareteObj = generator([1,3,5])
  console.log(genareteObj.next())

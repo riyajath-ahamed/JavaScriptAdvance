@@ -7,6 +7,7 @@ function* generateId() {
     }
 }
 
+
 const generatorObj = generateId()
 console.log(generatorObj.next())
 console.log(generatorObj.next())

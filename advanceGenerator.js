@@ -11,6 +11,7 @@ function* generateId() {
     }
 }
 
+
 const genartorObject = generateId()
 console.log(genartorObject.next(433434345)) //This doenst effect because there is no yeild
 console.log(genartorObject.next())
